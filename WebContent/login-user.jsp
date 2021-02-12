@@ -12,7 +12,8 @@
 		String error_message = "";
 	Object error = request.getAttribute("error");
 	if (error != null)
-		error_message = error.toString();
+		error_message = error.toString(); 
+	
 	%>
 	
 	<form action="HelloServlet" method="POST">
